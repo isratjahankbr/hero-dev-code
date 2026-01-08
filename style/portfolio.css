@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:rgb(211, 240, 241);
+    
+}
+
+.font-open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+/* shared styles for header and nav */
+header{
+    padding-top: 50px;;
+    background-color:rgb(200, 164, 114); 
+}
+.btn{
+    border: none;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 18px 35px;
+    font-size: 20px;
+    height: 65px;
+    width: 150px;
+}
+logo h2{
+    font-size: 45px;;
+}
+nav{
+    width:71%;
+    max-width: 1120px;
+  /*   border: 1px solid red; */
+    margin: 0px auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 51px;
+    align-items: center;
+}
+nav .menu a{
+    font-size: 20px;
+    text-decoration: none;
+    color: 474747;
+
+}
