@@ -63,25 +63,28 @@ nav .menu a{
 }
 
 /* shared styles */
+.text-center{
+    text-align: center;
+}
 
-#section-heading{
+.section-heading{
     text-align: center;
     max-width: 827px;
-    height: 48px;
-    
+    margin: 0px auto;
+    font-size: 35px;
+   
+  
 
 }
-section-heading h2{
-   line-height: 30px;
+.section-heading h2{
+    line-height: 35px;
     padding-bottom: 30px;
-
-
 }
-section-heading p{
+#about .section-heading p{
     font-size: 18px;
     margin-bottom: 30px;
     color:#757575;
-    line-height: 30px;
+    
 
 }
 
@@ -120,7 +123,7 @@ section-heading p{
     max-height: auto;
 }
 
-#about{   
+#about,#skills, #resume{   
   
     padding: 130px 230px;
 }
@@ -133,6 +136,7 @@ section-heading p{
    margin: 0px auto;
    text-align: center;
    background-color: #FFF8F3;
+   
 
 
 }
@@ -154,4 +158,98 @@ section-heading p{
     font-size: 20px;
    
     
+}
+
+#skills{
+    
+    padding-top: 130px;
+    background-color: #faf6f6; 
+}
+
+#skills .skills-container{
+    padding: 131px 156px;
+    width:71%;
+    max-width: 1120px;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #FFF8F3;
+
+}
+
+.skill-container .section-heading p{
+    font-size: 18px;
+    color:#757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+.skill-container .skill-info{
+    
+    width: 1100px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    gap: 20px;
+    text-align: left;
+}
+.skill-container .skill-info .skill{
+    font-size: 16px;;
+    
+    background-color: #FFF8F3;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 6px 50px 0 #a8a8ae;
+}
+.skill-container .skill-info .skill h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.skill-container .skill-info .skill img{
+    max-width: 44px;
+    margin-bottom: 20px;
+}
+
+.resume-container{
+    display: flex;
+    width:71%;
+    max-width: 1120px;
+    margin: 113px auto 0;
+    text-align: left;
+    gap: 24px;
+   
+
+}
+.resume-container h2{
+    font-size: 30px;
+    margin-bottom: 33px;
+}
+.resume-container .resume-title{
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume-container .resume-subtitle{
+    font-size: 20px;
+    color: #757575;         
+    margin-bottom: 20px;
+ 
+}
+.resume-container .resume-description{
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+
+}
+.education-box,.experience-box{
+    max-width: 511px;
+    margin-right: 47px;
+    
+}
+.resume-container hr{
+
+    margin: 30px 0;;
 }
